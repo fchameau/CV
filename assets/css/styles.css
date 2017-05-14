@@ -1,10 +1,4 @@
 /*   
- * Template Name: Orbit - Responsive Resume/CV Template for Developers
- * Version: 1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
 */
 /* styles.css */
 /* ======= Base ======= */
@@ -44,25 +38,50 @@ p {
 }
 .wrapper {
   background: #42A8C0;
-  max-width: 960px;
+  max-width: 1024px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
-.sidebar-wrapper {
+
+.contact {
+  color: #fff;
   background: #42A8C0;
-  position: absolute;
-  width: 240px;
-  height: 100%;
-  min-height: 800px;
+  padding: 0;
+}
+.contact a {
   color: #fff;
 }
+
+.contact-container {
+  padding: 30px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.contact-list-container {
+  padding: 30px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.contact-list-container li {
+  margin-bottom: 15px;
+}
+.contact-list-container li:last-child {
+  margin-bottom: 0;
+}
+.contact-list-container .fa {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
 .sidebar-wrapper a {
   color: #fff;
 }
-.sidebar-wrapper .profile-container {
+.profile-container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -84,20 +103,7 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
-  margin-right: 5px;
-  font-size: 18px;
-  vertical-align: middle;
-}
-.sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
-}
-.sidebar-wrapper .contact-list li:last-child {
-  margin-bottom: 0;
-}
-.sidebar-wrapper .contact-list .email .fa {
-  font-size: 14px;
-}
+
 .sidebar-wrapper .container-block {
   padding: 30px;
 }
