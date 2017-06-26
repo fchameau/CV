@@ -85,6 +85,7 @@ header h1 {
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
+  visibility: visible;
 }
 .cd-timeline-block::after {
   clear: both;
@@ -137,6 +138,10 @@ header h1 {
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
+
+.is-hidden {
+  visibility: hidden;
+}
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;
@@ -146,15 +151,6 @@ header h1 {
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-  }
-  .cssanimations .cd-timeline-img.is-hidden {
-    visibility: hidden;
-  }
-  .cssanimations .cd-timeline-img.bounce-in {
-    visibility: visible;
-    -webkit-animation: cd-bounce-1 0.6s;
-    -moz-animation: cd-bounce-1 0.6s;
-    animation: cd-bounce-1 0.6s;
   }
 }
 

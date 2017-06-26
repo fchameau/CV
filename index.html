@@ -20,6 +20,7 @@
     <!-- Custom CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/timeline.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/animate.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -29,18 +30,18 @@
 
 <body>
     <div class="row wrapper">
-		<div class="col-lg-4 col-md-4 headline">
+		<div class="col-xl-3 col-lg-4 col-md-4 headline">
 			<img class="profile" src="assets/images/profile_rond_100.png" alt="" />
 		</div>
-		<div class="col-lg-8 col-md-8 headline">
+		<div class="col-xl-9 col-lg-8 col-md-8 headline">
 			&nbsp;
 		</div>
 	</div>
 	<div class="row wrapper">
-		<div class="col-lg-4 col-md-4 headline">
+		<div class="col-xl-3 col-lg-4 col-md-4 headline">
 			<h2>Florent CHAMEAU</h2>
 		</div>
-		<div class="col-lg-8 col-md-8 headline">
+		<div class="col-xl-9 col-lg-8 col-md-8 headline">
 			<div class="row">
 				<div class="col-12">
 					<h2>Responsable de domaine SI - Architectures Digitales</h2>
@@ -49,7 +50,7 @@
 		</div>
 	</div>
 	<div class="row wrapper">
-		<div class="col-lg-4 col-md-4 contact">
+		<div class="col-xl-3 col-lg-4 col-md-4 contact">
 			<ul class="list-unstyled contact-list">
 				<li class="email"><i class="fa fa-envelope"></i><a href="mailto: fchameau@gmail.com">fchameau@gmail.com</a></li>
 				<li class="phone"><i class="fa fa-phone"></i><a href="tel:0788393441">07 88 39 34 41</a></li>
@@ -57,46 +58,52 @@
 				<li class="github"><i class="fa fa-github"></i><a href="https://github.com/fchameau" target="_blank">github.com/fchameau</a></li>
 			</ul>
 		</div>
-		<div class="[ col-lg-8 col-sm-offset-2 col-md-8 ] headline">
-			<ul class="event-list">
-				<li>
-					<div class="fig">
-						12
-					</div>						
-					<div class="info">
-						<h2 class="title">12 ans d’expérience professionnelle</h2>
-						<p class="desc">Dont 11 ans sur les technologies Web / JEE / Digitales
-						<p class="desc">Dont 10 ans d’intégration dans des SI complexes (SOA, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
-					</div>
-				</li>
-				<li>
-					<div class="fig">
-						Scrum
-					</div>						
-					<div class="info">
-						<h2 class="title">Scrum, waterfall</h2>
-						<p class="desc">Encadrement d’équipes de développeurs, ingénieurs d’étude expérimentés et architectes (jusqu'à 15 personnes)
-						<p class="desc">Delivery de projets jusqu'à 3000jh/an, menés de la conception à la mise en production, exploitation et support</p>
-					</div>
-				</li>
-				<li>
-					<div class="fig">
-						Anglais
-					</div>						
-					<div class="info">
-						<h2 class="title">Secteurs variés (Banque, Assurance, Médias, Télécoms)</h2>
-						<p class="desc">Anglais courant
-					</div>
-				</li>
-			</ul>
-
+		<div class="col-xl-9 col-lg-8 col-md-8 headline">
+			<div class="row">
+				<div class="card-group">
+				<div class="card card-inverse" style="width: 100%;">
+				  <div class="card-header">12 ans d’expérience professionnelle</div>
+				  <div class="card-block">
+					<h4 class="card-title"></h4>
+					<p class="card-text">Encadrement d’équipes (jusqu'à 15 personnes)</p>
+					<p class="card-text">Méthodes agiles (scrum, kanban, xp), devops, ou waterfall</p>
+					<p class="card-text">Delivery de projets jusqu'à 3000jh/an, menés de la conception à la mise en production, exploitation et support</p>
+					<p class="card-text">Secteurs variés (Banque, Assurance, Médias, Télécoms)</p>
+				  </div>
+				  <div class="card-footer">
+					<a href="#" class="btn btn-primary" onclick="$.scrollTo($('#experience'), 1000);"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				
+				
+				<div class="card card-inverse" style="width: 100%;">
+				  <div class="card-header">Digital</div>
+				  <div class="card-block">
+					<h4 class="card-title"></h4>
+					<p class="card-text">Maîtrise des architectures & technologies Web / JEE / Digitales</p>
+					<p class="card-text">Intégration dans des SI complexes (REST, API Management, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
+				  </div>
+				  <div class="card-footer">
+					<a href="#" class="btn btn-primary" onclick="$.scrollTo($('#specialties'), 1000);"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				
+				
+				<div class="card card-inverse" style="width: 100%;">
+				  <div class="card-header">Formation</div>
+				  <div class="card-block">
+					<h4 class="card-title"></h4>
+					<p class="card-text">Ingénieur INSA Lyon</p>
+					<p class="card-text">Anglais courant</p>
+				  </div>
+				  <div class="card-footer">
+					<a href="#" class="btn btn-primary" onclick="$.scrollTo($('#education'), 1000);"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				  </div>
+				</div>
+				</div>
+			</div>
 		</div>
-					<div class="headline-scroll">
-						<a href="#" onclick="$.scrollTo($('#specialties'), 1000);"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-						<a href="#"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-						<a href="#"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-						<a href="#"><b>Divers/Perso</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>&nbsp;
-					</div>
+					
 
         </div>	
 	</div>
@@ -113,7 +120,7 @@
 			
 			<!-- START expe timeline -->
 			<section id="cd-timeline" class="cd-container">
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-picture">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
 					</div> <!-- cd-timeline-img -->
@@ -126,7 +133,7 @@
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-movie">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
 					</div> <!-- cd-timeline-img -->
@@ -139,7 +146,7 @@
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-picture">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture">
 					</div> <!-- cd-timeline-img -->
@@ -152,7 +159,7 @@
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-location">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
 					</div> <!-- cd-timeline-img -->
@@ -165,7 +172,7 @@
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-location">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
 					</div> <!-- cd-timeline-img -->
@@ -178,7 +185,7 @@
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
 
-				<div class="cd-timeline-block">
+				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-movie">
 						<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
 					</div> <!-- cd-timeline-img -->
@@ -213,7 +220,7 @@
 	
     <!-- Javascript -->          
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- custom js -->
