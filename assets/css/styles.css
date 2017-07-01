@@ -34,6 +34,13 @@ p {
   line-height: 1.5;
 }
 
+/* Override bootstrap */
+.btn-primary{
+  background: #62757f; 
+  border: none;
+}
+
+/* Custom */
 .profile {
   margin-top: -60px;
 }
@@ -83,57 +90,43 @@ p {
 
 .specialties {
   color: #fff;
-  background: #82b1ff;
-  padding: 30px;
-  text-align: center;
-}
-
-.experience {
-  color: #666;
-  background: #c1d5e0;
-  padding: 30px;
-}
-
-.education {
-  color: #666;
-  background: #425596;
-  padding: 30px;
-}
-
-.perso {
-  color: #fff;
   background: #62757f;
   padding: 30px;
   text-align: center;
 }
 
+.experience {
+  color: #fff;
+  background: #82b1ff;
+  padding: 30px;
+}
+
+.education {
+  color: #fff;
+  background: #82b1ff;
+  padding: 30px;
+}
+
+.perso {
+  color: #666;
+  background: #c1d5e0;
+  padding: 30px;
+  text-align: center;
+}
 
 .round-button {
-	width:50px;
-	height:50px;
-	position:fixed;
-	bottom:10px;
-    right:10px;
-	margin: auto;
+  width:50px;
+  height:50px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  border-radius: 50%;
+  border:3px solid #cfdcec;
+  box-shadow: 3px 3px 3px gray;
+  padding: 0px;
+  padding-top: 2px;
+  font-size:2em;
+  font-weight:bold;
+  text-decoration:none;
 }
-.round-button-circle {
-	display:block;
-	width: 100%;
-	height:100%;
-    border-radius: 50%;
-	border:3px solid #cfdcec;
-    overflow:hidden;
-    background: #62757f; 
-    box-shadow: 4px 4px 4px gray;
-	margin: auto;
-	line-height:1em;
-	text-align:center;
-    font-size:2em;
-    font-weight:bold;
-    text-decoration:none;
-	padding-top: 5px;
 
-}
-.round-button-circle:hover {
-	background:#00023d;
-}

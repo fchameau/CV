@@ -211,7 +211,8 @@ header h1 {
   background: #ffffff;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 3px 3px 3px #ccc;
+  color: black;
 }
 .cd-timeline-content::after {
   clear: both;
