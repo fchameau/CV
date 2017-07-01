@@ -17,15 +17,15 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 a:hover {
   text-decoration: underline;
-  color: #1a454f;
+  color: #ddd;
 }
 a:focus {
   text-decoration: none;
@@ -44,9 +44,6 @@ p {
   padding: 15px;
   text-align: center;
 }
-.headline a {
-  color: #fff;
-}
 
 .contact {
   color: #fff;
@@ -54,9 +51,6 @@ p {
   padding: 30px;
   text-align: center;
   
-}
-.contact a {
-  color: #fff;
 }
 .contact-list ul {
   margin-bottom: 0;
@@ -111,4 +105,35 @@ p {
   background: #62757f;
   padding: 30px;
   text-align: center;
+}
+
+
+.round-button {
+	width:50px;
+	height:50px;
+	position:fixed;
+	bottom:10px;
+    right:10px;
+	margin: auto;
+}
+.round-button-circle {
+	display:block;
+	width: 100%;
+	height:100%;
+    border-radius: 50%;
+	border:3px solid #cfdcec;
+    overflow:hidden;
+    background: #62757f; 
+    box-shadow: 4px 4px 4px gray;
+	margin: auto;
+	line-height:1em;
+	text-align:center;
+    font-size:2em;
+    font-weight:bold;
+    text-decoration:none;
+	padding-top: 5px;
+
+}
+.round-button-circle:hover {
+	background:#00023d;
 }
