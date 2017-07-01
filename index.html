@@ -28,8 +28,9 @@
     <![endif]-->
 </head> 
 
-<body>
-    <div class="row wrapper">
+<body><div class="container-fluid">
+
+    <div class="row">
 		<div class="col-xl-3 col-lg-4 col-md-4 headline">
 			<img class="profile" src="assets/images/profile_rond_100.png" alt="" />
 		</div>
@@ -57,14 +58,14 @@
 				<li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/florent-chameau-1984192/" target="_blank">linkedin.com/profile</a></li>
 				<li class="github"><i class="fa fa-github"></i><a href="https://github.com/fchameau" target="_blank">github.com/fchameau</a></li>
 			</ul>
+			<a href="#" class="btn btn-primary" onclick="$.scrollTo($('#perso'), 1000);"><b>Plus d'infos</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 		</div>
 		<div class="col-xl-9 col-lg-8 col-md-8 headline">
 			<div class="row">
 				<div class="card-group">
-				<div class="card card-inverse" style="width: 100%;">
+				<div class="card">
 				  <div class="card-header">12 ans d’expérience professionnelle</div>
 				  <div class="card-block">
-					<h4 class="card-title"></h4>
 					<p class="card-text">Encadrement d’équipes (jusqu'à 15 personnes)</p>
 					<p class="card-text">Méthodes agiles (scrum, kanban, xp), devops, ou waterfall</p>
 					<p class="card-text">Delivery de projets jusqu'à 3000jh/an, menés de la conception à la mise en production, exploitation et support</p>
@@ -76,10 +77,9 @@
 				</div>
 				
 				
-				<div class="card card-inverse" style="width: 100%;">
+				<div class="card">
 				  <div class="card-header">Digital</div>
 				  <div class="card-block">
-					<h4 class="card-title"></h4>
 					<p class="card-text">Maîtrise des architectures & technologies Web / JEE / Digitales</p>
 					<p class="card-text">Intégration dans des SI complexes (REST, API Management, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
 				  </div>
@@ -89,10 +89,9 @@
 				</div>
 				
 				
-				<div class="card card-inverse" style="width: 100%;">
+				<div class="card">
 				  <div class="card-header">Formation</div>
 				  <div class="card-block">
-					<h4 class="card-title"></h4>
 					<p class="card-text">Ingénieur INSA Lyon</p>
 					<p class="card-text">Anglais courant</p>
 				  </div>
@@ -104,8 +103,6 @@
 			</div>
 		</div>
 					
-
-        </div>	
 	</div>
 
 	
@@ -213,9 +210,8 @@
 			Divers / Perso
 		</div>
 	</div>
-	
 
-	
+</div>	
 	<!--//-->
 	
     <!-- Javascript -->          

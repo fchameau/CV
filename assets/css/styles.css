@@ -82,6 +82,9 @@ p {
 
 .card-group {
   color: #000;
+
+  width: 90%;
+  margin: auto;
 }
 
 .specialties {
