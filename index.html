@@ -15,12 +15,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
     
+	
     <!-- Custom CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/timeline.css">
-	<link id="theme-style" rel="stylesheet" href="assets/css/animate.css">
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -59,7 +61,7 @@
 				<li class="github"><i class="fa fa-github"></i><a href="https://github.com/fchameau" target="_blank">github.com/fchameau</a></li>
 			</ul>
 			<br /><br />
-			<a href="#perso" class="btn btn-primary"><b>Plus d'infos</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			<a href="#persoHeader" class="btn btn-primary"><b>Plus d'infos</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 		</div>
 		<div class="col-xl-9 col-lg-8 col-md-8 headline">
 			<div class="row">
@@ -75,7 +77,7 @@
 						<p class="card-text">Intégration dans des SI complexes (REST, API Management, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
 					  </div>
 					  <div class="card-footer">
-						<a href="#specialties" class="btn btn-primary"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+						<a href="#specialtiesHeader" class="btn btn-primary"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 					  </div>
 					</div>
 					
@@ -91,7 +93,7 @@
 						<p class="card-text">Secteurs variés (Banque, Assurance, Médias, Télécoms)</p>
 					  </div>
 					  <div class="card-footer">
-						<a href="#experience" class="btn btn-primary"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+						<a href="#experienceHeader" class="btn btn-primary"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 					  </div>
 					</div>
 					
@@ -105,7 +107,7 @@
 						<p class="card-text">Anglais courant</p>
 					  </div>
 					  <div class="card-footer">
-						<a href="#education" class="btn btn-primary"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+						<a href="#educationHeader" class="btn btn-primary"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 					  </div>
 					</div>
 
@@ -116,15 +118,27 @@
 	</div>
 
 	
-	<div id="specialties" class="row">
-		<div class="col-12 specialties">
-			<h2>Spécialités<h2>
+	<div id="anchorSpecialtiesHeader"></div>
+	<div id="specialtiesHeader" class="row specialties sticky" style="z-index: 50;">
+		<div class="col-12">
+			<h2><center>Spécialités</center></h2>
 		</div>
 	</div>
+	<div id="specialties" class="row specialties">
+		<div class="col-12">
+			Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />
+			Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />Content<br />
+		</div>
+	</div>	
 	
+	<div id="anchorExperienceHeader"></div>
+	<div id="experienceHeader" class="row experience sticky" style="z-index: 40;">
+		<div class="col-12">
+			<center><h2>Expérience</h2></center>
+		</div>
+	</div>
 	<div id="experience" class="row experience">
-		<div class="col-12 experience">
-			<center><h2>Expérience<h2></center>
+		<div class="col-12">
 			<!-- START expe timeline -->
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block is-hidden">
@@ -170,7 +184,7 @@ Contexte : Vaste programme de fusion des SI des banques de détail Crédit du No
 </p>
 
 Rôle, en binôme avec le Client :
-<ul id="ManagerMore">
+<ul id="ManagerMore" >
 <li>Architecte JEE / Portail – Conception et refonte du framework applicatif support de l’exécution du poste de travail de la banque.</li>
 <li>Encadrement d’une équipe d’architectes JEE / ingénieurs d’étude expérimentés (6 à 15 au pic de l’activité).</li>
 <li>Cadrage amont des solutions, participation à la définition de l’architecture d’entreprise.</li>
@@ -199,7 +213,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 					<div class="cd-timeline-content">
 						<h2>Consultant - Accenture</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-						<p id="ConsultantMore">Test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<p id="ConsultantMore" >Test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
@@ -215,7 +229,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 					<div class="cd-timeline-content">
 						<h2>Analyste - Accenture</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-						<p id="AnalysteMore">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<p id="AnalysteMore" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
@@ -229,9 +243,14 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 		</div>
 	</div>
 	
-	<div id="education" class="row">
-		<div class="col-12 education">
-		<center><h2>Formation<h2></center>
+	<div id="anchorEducationHeader"></div>
+	<div id="educationHeader" class="row education sticky" style="z-index: 30;">
+		<div class="col-12">
+			<center><h2>Formation<h2></center>
+		</div>
+	</div>
+	<div id="education" class="row education">
+		<div class="col-12">
 		<!-- START edu timeline -->
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block is-hidden">
@@ -278,16 +297,22 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 		</div>
 	</div>
 	
-	<div id="perso" class="row">
-		<div class="col-12 perso">
+	<div id="anchorPersoHeader"></div>
+	<div id="persoHeader" class="row perso sticky" style="z-index: 20;">
+		<div class="col-12">
 			<center><h2>Divers / Perso<h2></center>
+		</div>
+	</div>
+	<div id="perso" class="row perso">
+		<div class="col-12">
+			Perso
 		</div>
 	</div>
 
 </div>	
 
 <a href="#top">
-<div class="btn btn-primary round-button">
+<div id="toTop" class="btn btn-primary round-button hide">
 	<i class="fa fa-chevron-up" aria-hidden="true">
 	</i>
 </div>

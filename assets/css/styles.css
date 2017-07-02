@@ -41,10 +41,20 @@ p {
 }
 
 /* Custom */
+.hide {
+  visibility: hidden;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .profile {
   margin-top: -60px;
 }
-
 .headline {
   color: #fff;
   background: #00023d;
@@ -111,18 +121,22 @@ p {
   background: rgba(255, 255, 255, 0.7);
   padding: 5px;
 }
+
 .specialties {
   color: #fff;
   background: #62757f;
-  padding: 30px;
-  text-align: center;
+  padding: 10px;
+  padding-top: 30px;
 }
+
 
 .experience {
   color: #555;
   background: #9dbbeb;
-  padding: 30px;
+  padding: 10px;
+  padding-top: 30px;
 }
+
 
 .education {
   color: #555;
