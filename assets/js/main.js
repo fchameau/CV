@@ -14,6 +14,8 @@ $.when( $.ready ).then(function() {
 	});
    // END timeline
     
+	
+	//scrollTo for <a href=#anchor /> links
 	$('a[href^="#"]').on('click', function(event) {
 
 		var target = $(this.getAttribute('href'));

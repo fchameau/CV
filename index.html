@@ -15,7 +15,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
     
     <!-- Custom CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -58,47 +58,57 @@
 				<li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/florent-chameau-1984192/" target="_blank">linkedin.com/profile</a></li>
 				<li class="github"><i class="fa fa-github"></i><a href="https://github.com/fchameau" target="_blank">github.com/fchameau</a></li>
 			</ul>
+			<br /><br />
 			<a href="#perso" class="btn btn-primary"><b>Plus d'infos</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 		</div>
 		<div class="col-xl-9 col-lg-8 col-md-8 headline">
 			<div class="row">
 				<div class="card-group">
-				<div class="card">
-				  <div class="card-header">12 ans d’expérience professionnelle</div>
-				  <div class="card-block">
-					<p class="card-text">Encadrement d’équipes (jusqu'à 20 personnes)</p>
-					<p class="card-text">Méthodes agiles (scrum, kanban, xp), devops, ou waterfall</p>
-					<p class="card-text">Delivery de projets jusqu'à 3000jh/an, menés de la conception à la mise en production, exploitation et support</p>
-					<p class="card-text">Secteurs variés (Banque, Assurance, Médias, Télécoms)</p>
-				  </div>
-				  <div class="card-footer">
-					<a href="#experience" class="btn btn-primary"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-				  </div>
-				</div>
 				
-				
-				<div class="card">
-				  <div class="card-header">Digital</div>
-				  <div class="card-block">
-					<p class="card-text">Maîtrise des architectures & technologies Web / JEE / Digitales</p>
-					<p class="card-text">Intégration dans des SI complexes (REST, API Management, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
-				  </div>
-				  <div class="card-footer">
-					<a href="#specialties" class="btn btn-primary"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-				  </div>
-				</div>
-				
-				
-				<div class="card">
-				  <div class="card-header">Formation</div>
-				  <div class="card-block">
-					<p class="card-text">Ingénieur INSA Lyon</p>
-					<p class="card-text">Anglais courant</p>
-				  </div>
-				  <div class="card-footer">
-					<a href="#education" class="btn btn-primary"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
-				  </div>
-				</div>
+					<div class="card">
+						<div class="card-header">
+							<i class="fa fa-desktop fa-2x"></i>&nbsp;<i class="fa fa-mobile fa-2x"></i>&nbsp;
+							Digital
+						</div>
+					  <div class="card-block">
+						<p class="card-text">Maîtrise des architectures & technologies Web / JEE / Digitales</p>
+						<p class="card-text">Intégration dans des SI complexes (REST, API Management, JMS, z/OS CICS & IMS, Editique, GED, BPM)</p>
+					  </div>
+					  <div class="card-footer">
+						<a href="#specialties" class="btn btn-primary"><b>Spécialités</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					  </div>
+					</div>
+					
+					<div class="card">
+						<div class="card-header">
+							<i class="fa fa-line-chart fa-2x"></i>&nbsp;
+							12 ans d’expérience
+						</div>
+					  <div class="card-block">
+						<p class="card-text">Encadrement d’équipes (jusqu'à 20 personnes)</p>
+						<p class="card-text">Méthodes agiles (scrum, kanban, xp), devops, ou waterfall</p>
+						<p class="card-text">Delivery de projets jusqu'à 3000jh/an, de la conception à l'exploitation</p>
+						<p class="card-text">Secteurs variés (Banque, Assurance, Médias, Télécoms)</p>
+					  </div>
+					  <div class="card-footer">
+						<a href="#experience" class="btn btn-primary"><b>Expérience</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					  </div>
+					</div>
+					
+					<div class="card">
+						<div class="card-header">
+							<i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+							Formation
+						</div>
+					  <div class="card-block">
+						<p class="card-text">Ingénieur INSA Lyon</p>
+						<p class="card-text">Anglais courant</p>
+					  </div>
+					  <div class="card-footer">
+						<a href="#education" class="btn btn-primary"><b>Formation</b><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+					  </div>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -125,7 +135,9 @@
 					<div class="cd-timeline-content">
 						<h2>Responsable de domaine SI - Société Générale</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-						<a href="#0" class="cd-read-more">Read more</a>
+						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+						</div>
 						<span class="cd-date">2015 > Aujourd'hui</span>
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
@@ -138,7 +150,9 @@
 					<div class="cd-timeline-content">
 						<h2>Architecte technique - Société Générale</h2>
 						<p>Lorem ipsum dolor sit amet,dconsectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-						<a href="#0" class="cd-read-more">Read more</a>
+						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+						</div>
 						<span class="cd-date">2013 > 2015</span>
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
@@ -150,8 +164,30 @@
 
 					<div class="cd-timeline-content">
 						<h2>Manager - Accenture</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
-						<a href="#0" class="cd-read-more">Read more</a>
+						<p>
+Banque (Société Générale, banque de détail)
+Contexte : Vaste programme de fusion des SI des banques de détail Crédit du Nord et Société Générale (+500000jh, +400 personnes)
+</p>
+<p id="ManagerMore">
+Rôle, en binôme avec le Client :
+<ul>
+<li>Architecte JEE / Portail – Conception et refonte du framework applicatif support de l’exécution du poste de travail de la banque.
+<li>Encadrement d’une équipe d’architectes JEE / ingénieurs d’étude expérimentés (6 à 15 au pic de l’activité).
+<li>Cadrage amont des solutions, participation à la définition de l’architecture d’entreprise.
+<li>Réalisation d’études de faisabilité et veille technologique, notamment :
+Mise en œuvre de la première intégration mondiale portlet + JSF + Spring Web Flow, utilisé comme socle applicatif par la banque, et mis en avant pour bénéficier du Crédit Impôt Recherche.
+<li>Pilotage du delivery du framework applicatif - 6000jh sur 3 ans, de la conception à la production.
+<li>Revues de sécurité :
+Mise en œuvre de solutions assurant confidentialité et intégrité des données (chiffrement, échanges de certificats)
+<li>Participation aux tests de performances et de robustesse : 
+Exécution des tests de charge en environnement distribué (Load Runner), analyse des résultats, optimisation de l’application pour répondre au contrat de service utilisateurs, définition du modèle de scalabilité, exécution des tests de failover de différents composants du système.
+<li>Environnement : JEE (JSF, JPA, EJB, JAX-WS, JAX-B, JCA), Portail (Portlets), Spring + WebFlow, Maven, UML, MDA, Windows, Unix, Oracle Weblogic et Weblogic Portail.
+</ul>
+</p>
+						</p>
+						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+						</div>
 						<span class="cd-date">2010 > 2013</span>
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
@@ -164,7 +200,10 @@
 					<div class="cd-timeline-content">
 						<h2>Consultant - Accenture</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-						<a href="#0" class="cd-read-more">Read more</a>
+						<p id="ConsultantMore">Test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+						</div>
 						<span class="cd-date">2007 > 2010</span>
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
@@ -177,7 +216,10 @@
 					<div class="cd-timeline-content">
 						<h2>Analyste - Accenture</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-						<a href="#0" class="cd-read-more">Read more</a>
+						<p id="AnalysteMore">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
+						</div>
 						<span class="cd-date">2005 > 2007</span>
 					</div> <!-- cd-timeline-content -->
 				</div> <!-- cd-timeline-block -->
@@ -196,6 +238,19 @@
 				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-picture">
 						<img src="assets/images/AT-logo-SG.png" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+
+					<div class="cd-timeline-content">
+						<h2>TOGAF 9</h2>
+						<p>Formation "The Open Group Architecture Framework"</p>
+						<p>Niveau 2</p>
+						<span class="cd-date">2015</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+				
+				<div class="cd-timeline-block is-hidden">
+					<div class="cd-timeline-img cd-picture">
+						<img src="assets/images/INSALyon.png" alt="Picture">
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
@@ -234,7 +289,8 @@
 
 <a href="#top">
 <div class="btn btn-primary round-button">
-<i class="fa fa-chevron-up" aria-hidden="true" />
+	<i class="fa fa-chevron-up" aria-hidden="true">
+	</i>
 </div>
 </a>
 
