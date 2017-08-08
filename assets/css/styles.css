@@ -33,6 +33,9 @@ a:focus {
 p {
   line-height: 1.5;
 }
+ul {
+  margin-bottom: 4px;
+}
 
 /* Override bootstrap */
 .btn-primary{
@@ -136,18 +139,28 @@ p {
   padding: 10px;
   padding-top: 30px;
 }
-
+.read-more {
+  float: right;
+  color: #000;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+.badge {
+  background-color: grey;
+}
 
 .education {
   color: #555;
   background: #9dbbeb;
-  padding: 30px;
+  padding: 10px;
+  padding-top: 30px;
 }
 
 .perso {
   color: #666;
   background: #c1d5e0;
-  padding: 30px;
+  padding: 10px;
+  padding-top: 30px;
   text-align: center;
 }
 

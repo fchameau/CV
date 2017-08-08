@@ -133,8 +133,11 @@
 	
 	<div id="anchorExperienceHeader"></div>
 	<div id="experienceHeader" class="row experience sticky" style="z-index: 40;">
-		<div class="col-12">
+		<div class="col-10">
 			<center><h2>Expérience</h2></center>
+		</div>
+		<div class="col-2 read-more" onclick="$('[id$=More]').slideToggle();">
+			<i class="fa fa-chevron-down"></i> Plier / Déplier tout <i class="fa fa-chevron-up"></i>
 		</div>
 	</div>
 	<div id="experience" class="row experience">
@@ -164,7 +167,7 @@
 					<div class="cd-timeline-content">
 						<h2>Architecte technique - Société Générale</h2>
 						<p>Lorem ipsum dolor sit amet,dconsectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+						<div class="cd-read-more" onclick="$('[id=ManagerMore]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
 						<span class="cd-date">2013 > 2015</span>
@@ -179,10 +182,10 @@
 					<div class="cd-timeline-content">
 						<h2>Manager - Accenture</h2>
 						<p>
-Banque (Société Générale, banque de détail)
+Secteur : Banque (Société Générale, banque de détail)<br />
 Contexte : Vaste programme de fusion des SI des banques de détail Crédit du Nord et Société Générale (+500000jh, +400 personnes)
 </p>
-
+<p>
 Rôle, en binôme avec le Client :
 <ul id="ManagerMore" >
 <li>Architecte JEE / Portail – Conception et refonte du framework applicatif support de l’exécution du poste de travail de la banque.</li>
@@ -195,10 +198,10 @@ Mise en œuvre de la première intégration mondiale portlet + JSF + Spring Web 
 Mise en œuvre de solutions assurant confidentialité et intégrité des données (chiffrement, échanges de certificats)</li>
 <li>Participation aux tests de performances et de robustesse : 
 Exécution des tests de charge en environnement distribué (Load Runner), analyse des résultats, optimisation de l’application pour répondre au contrat de service utilisateurs, définition du modèle de scalabilité, exécution des tests de failover de différents composants du système.</li>
-<li>Environnement : JEE (JSF, JPA, EJB, JAX-WS, JAX-B, JCA), Portail (Portlets), Spring + WebFlow, Maven, UML, MDA, Windows, Unix, Oracle Weblogic et Weblogic Portail.</li>
 </ul>
+<span class="badge">JEE</span> <span class="badge">JSF</span> <span class="badge">JPA</span> <span class="badge">EJB</span> <span class="badge">JAX-WS</span> <span class="badge">JAX-B</span> <span class="badge">JCA</span> <span class="badge">Portail (Portlets)</span> <span class="badge">Spring</span> <span class="badge">Spring WebFlow</span> <span class="badge">Maven</span> <span class="badge">UML</span> <span class="badge">MDA</span> <span class="badge">Windows</span> <span class="badge">Unix</span> <span class="badge">Oracle Weblogic</span> <span class="badge">Weblogic Portail</span>
 						</p>
-						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+						<div class="cd-read-more" onclick="$('[id=ManagerMore]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
 						<span class="cd-date">2010 > 2013</span>
@@ -212,9 +215,46 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 
 					<div class="cd-timeline-content">
 						<h2>Consultant - Accenture</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-						<p id="ConsultantMore" >Test Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+						<p>
+							Secteurs : Medias, Mécénat et Assurance
+						</p>
+						<div id="ConsultantMore">
+
+12 mois (2009-2010) : Assurance (BNP Paribas Assurances)<br />
+Contexte : Chez un éditeur de progiciel d’assurance vie (LDS), dans le cadre de la refonte du progiciel pour BNPPA, vers une architecture type SaaS + Batch.<br />
+Rôle :
+<ul>
+<li>Encadrement d’une équipe de 4 ingénieurs d’étude expérimentés.</li>
+<li>Pilotage du delivery de la solution batch et de l’application web d’administration – 1000jh sur 1 an.</li>
+<li>Exécution et suivi des tests de performances et de robustesse : exécution de tests de charge  tests de failover sur chaque composant applicatif et adaptation des briques logicielles le cas échéant.</li>
+<li>Suivi des tests fonctionnels.</li>
+<li>Mise en place d’outils de PMO pour le suivi du delivery center de Casablanca (30 personnes).</li>
+</ul>
+<span class="badge">JEE</span> <span class="badge">JSF</span> <span class="badge">Rich Faces</span> <span class="badge">JMS</span> <span class="badge">Spring Batch</span> <span class="badge">IBM Websphere</span>
+<br/><br/>
+
+9 mois (2009) : Participation aux actions de mécénat d’Accenture – <a href="http://www.goodPlanet.info">Goodplanet.info</a><br />
+Contexte : Création d’un site encyclopédique pour Yann Arthus Bertrand.<br />
+Rôle :
+<ul>
+<li>Chef de projet, encadrement d’une équipe de 4 ingénieurs d’étude expérimentés.</li>
+<li>Conception, réalisation, tests, et livraison en production du site, représentant un effort de 1000jh.</li>
+</ul>
+<span class="badge">PHP</span> <span class="badge">CMS eZ-Publish</span> <span class="badge">Flex</span> <span class="badge">Unix</span>
+<br/><br/>
+
+12 mois (2007-2008) : Medias (Canal+ - Plateforme de vidéo à la demande)<br />
+Contexte : Industrialisation de la plate-forme de vidéo à la demande (Freebox, Canal+ Cube…) pour la Mise Au Format et la Commercialisation des contenus.<br />
+Rôle :
+<ul>
+<li>Responsable de la phase de réalisation de la plate-forme – livraison en production de la plateforme de commercialisation.</li>
+<li>Encadrement d’une équipe de 8 développeurs.</li>
+<li>Interactions avec la direction de programme, le client et les divers prestataires externes.</li>
+</ul>
+<span class="badge">JEE</span> <span class="badge">Framework ATG Commerce (e-Commerce)</span> <span class="badge">JBoss</span>
+
+						</div>
+						<div class="cd-read-more" onclick="$('[id=ConsultantMore]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
 						<span class="cd-date">2007 > 2010</span>
@@ -230,7 +270,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 						<h2>Analyste - Accenture</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
 						<p id="AnalysteMore" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
-						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+						<div class="cd-read-more" onclick="$('[id=AnalysteMore]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
 						<span class="cd-date">2005 > 2007</span>
@@ -255,7 +295,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 			<section id="cd-timeline" class="cd-container">
 				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-picture">
-						<img src="assets/images/AT-logo-SG.png" alt="Picture">
+						<img src="assets/images/AT-logo-SG.png" alt="SG">
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
@@ -268,7 +308,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 				
 				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-picture">
-						<img src="assets/images/INSALyon.png" alt="Picture">
+						<img src="assets/images/INSALyon.png" alt="INSA">
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
@@ -282,7 +322,7 @@ Exécution des tests de charge en environnement distribué (Load Runner), analys
 
 				<div class="cd-timeline-block is-hidden">
 					<div class="cd-timeline-img cd-movie">
-						<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+						<img src="assets/images/diplome.png" alt="diplome">
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
