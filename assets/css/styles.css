@@ -33,9 +33,6 @@ a:focus {
 p {
   line-height: 1.5;
 }
-ul {
-  margin-bottom: 4px;
-}
 
 /* Override bootstrap */
 .btn-primary{
@@ -125,6 +122,13 @@ ul {
   background: rgba(255, 255, 255, 0.7);
   padding: 5px;
 }
+.card-img-left {
+  border-bottom-left-radius: calc(.25rem - 1px);
+  border-top-left-radius: calc(.25rem - 1px);
+  float: left;
+  padding-right: 1em;
+  margin-bottom: -1.25em;
+}
 
 .specialties {
   color: #fff;
@@ -140,28 +144,18 @@ ul {
   padding: 10px;
   padding-top: 30px;
 }
-.read-more {
-  float: right;
-  color: #000;
-  border-radius: 0.25em;
-  cursor: pointer;
-}
-.badge {
-  background-color: grey;
-}
+
 
 .education {
   color: #555;
   background: #9dbbeb;
-  padding: 10px;
-  padding-top: 30px;
+  padding: 30px;
 }
 
 .perso {
   color: #666;
   background: #c1d5e0;
-  padding: 10px;
-  padding-top: 30px;
+  padding: 30px;
   text-align: center;
 }
 

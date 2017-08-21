@@ -125,14 +125,14 @@
 		</div>
 	</div>
 	<div id="specialties" class="row specialties">
-		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6" style="margin-bottom:15px;">
+		<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6" style="margin-bottom:15px;">
 			<div class="card">
 				<div class="card-block">
 					<img src="assets/images/specialties.png" alt="Spécialités" width="100%">
 				</div>
 			</div>
 		</div>
-		<div class="col-xl-8 col-lg-8 col-md-8 col-sm-6">
+		<div class="col-xl-9 col-lg-8 col-md-8 col-sm-6">
 			<div class="row">
 				<div class="col-6">
 					<div class="card" style="margin-bottom:15px;">
@@ -240,9 +240,62 @@
 					</div> <!-- cd-timeline-img -->
 
 					<div class="cd-timeline-content">
-						<h2>Responsable de domaine SI - Société Générale</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-						<div class="cd-read-more" onclick="$('[id$=More]').slideToggle();">
+						<h2>Responsable de domaine SI - Architectures Digitales - Société Générale</h2>
+Animation d'une équipe de 15 architectes en charge de :
+<ul>
+<li>Définir le cadre d'architecture pour la fabrication d'applications web custom à l'état de l'art du web moderne et en tenant compte du champ de contrainte interne.</li>
+<li>Outiller le cadre de référence avec des solutions applicatives permettant d'optimiser le time to market des projets (scalfolding, éléments de frameworks, solutions d'API Management, solution de streaming de logs, etc...).
+<li>Accompagner les projets de manière opérationnelle dans l'adoption du cadre de référence et des outils le supportant, pour une architecture ancrée dans le réel, et une capacité à améliorer en continu le cadre de référence en fonction des difficultés rencontrées.
+<li>Exploiter les solutions et outils en production (yc dans des contexte critiques / très haute disponibilité).
+</ul>
+						<div id="RDAMore">
+Rôle significatif dans la transformation digitale de la banque :
+<ul>
+<li>Architecture applicative
+  <ul>
+	<li>Avant : Architecture monolithique, JEE only.</li>
+	<li>Après : Orientation microservices, front-end single page, JEE & Spring & NodeJS, scalfolding.</li>
+  </ul>
+</li>
+<li>Open Banking
+  <ul>
+    <li>Avant : Intégration complexe avec le z/OS (CICS & IMS via connecteurs JCA), SOAP majoritaire, bus d'entreprise sous-utilisé.</li>
+    <li>Après : REST first, déploiement d'une solution d'API Management, ouverture Open API.</li>
+  </ul>
+</li>
+<li>Outillage
+  <ul>
+    <li>Avant : PIC Java traditionnelle (git / mavent / jenkins).</li>
+    <li>Après : Déploiement de l'usage d'outil pour l'animation de projets agiles, promotion de github, intégration d'un repository NPM, tests en continu (java et js, yc performances).</li>
+  </ul>
+</li>
+<li>Sécurité
+  <ul>
+    <li>Avant : Exigences de sécurité peu formalisées (tradition orale), solutions complexes (TLS 2 ways, scellement, ...).</li>
+    <li>Après : Formalisation des exigences de sécurité, mise en oeuvre des frameworks standard pour la sécurisation des APIs (OpenID Connect / OAuth 2.0), fourniture de solutions clef en main pour les projets.</li>
+  </ul>
+</li>
+<li>Hébergement
+  <ul>
+    <li>Avant : Modèles d'hébergement multiples, complexes et coûteux à la mise en oeuvre.</li>
+    <li>Après : Rationalisation des modèles d'hébergement (2) et des critères d'éligibilité, hébergement cloud uniquement (12-factor apps).</li>
+  </ul>
+</li>
+<li>Exploitabilité
+  <ul>
+    <li>Avant : Exploitation réactive uniquement (accès aux logs à postériori)</li>
+    <li>Après : Orientation vers une exploitation préventive - streaming des logs vers des solutions analytics du monde Big Data, surveillance des performances via des APM ou librairies de métrologies intégrées, alerting.</li>
+  </ul>
+</li>
+<li>Méthodes
+  <ul>
+    <li>Avant : Waterfall.</li>
+    <li>Après : Agiles (Scrum / Kanban).</li>
+  </ul>
+</li>
+</ul>
+						</div>
+						<div class="cd-read-more" onclick="$('[id$=RDAMore]').slideToggle();">
 							<i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i>
 						</div>
 						<span class="cd-date">2015 > Aujourd'hui</span>
@@ -461,7 +514,23 @@ Mise en place de nouvelles offres prépayées, sur une architecture technique pi
 	</div>
 	<div id="perso" class="row perso">
 		<div class="col-12">
-			Perso
+			<div class="card">
+				<div class="card-header">VTT</div>
+				<img class="card-img-left img-fluid w-25" src="assets/images/rafale700.jpg" alt="VTT - Rafale 700">
+				<div class="card-block">
+					Je roule en Rafale 700
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">Running</div>
+				
+				<div class="card-block">
+					Marathon de Paris
+					Marseille Cassis
+					
+				</div>
+			</div>
+
 		</div>
 	</div>
 
